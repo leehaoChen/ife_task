@@ -1,0 +1,79 @@
+*{
+	padding: 0;
+	margin: 0;	
+}
+body{
+	padding-top: 10px;
+}
+.row{
+	width: 100%;
+	padding: 0 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div{
+	float: left;
+}
+.d1,.d2,.d3{
+	width: 33.33333%;
+	padding: 10px;
+	height: 72px;
+	box-sizing: border-box;
+}
+.d4,.d6{
+	width: 25%;
+	padding: 10px;
+	height: 72px;
+	box-sizing: border-box;
+}
+.d5{
+	width: 50%;
+	padding: 10px;
+	height: 72px;
+	box-sizing: border-box;
+
+}
+.d7,.d8{
+	width: 8.3333%;
+	padding: 10px;
+	height: 72px;
+	box-sizing: border-box;
+}
+.d9,.d10{
+	width: 16.6667%;
+	padding: 10px;
+	height: 72px;
+	box-sizing: border-box;
+}
+.d11{
+	width: 50%;
+	padding: 10px;
+	height: 72px;
+	box-sizing: border-box;
+}
+.in{
+	width: 100%;
+	background-color: #eee;
+	height: 50px;
+	outline: 1px solid #999;
+}
+
+@media (max-width: 768px) {
+	.d1,.d2,.d5{
+		width: 50%;
+	}
+	.d3{
+		width: 100%;
+	}
+	.d4,.d6,.d10,.d11{
+        width: 25%;
+	}
+	.d7,.d8{
+	    width:16.6667%;
+    }
+    .d9{
+    	width: 66.66667%;
+    }
+}   

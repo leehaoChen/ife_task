@@ -1,0 +1,152 @@
+*{
+	padding: 0;
+	margin: 0;
+    font-family:"Microsoft YaHei", Verdana, Geneva, sans-serif;
+}
+body{
+	background-color: #ccc;
+}
+ 
+.header{
+	margin: 0;
+	height: 60px;
+	width: 100%;
+	background: #343333 url(img/baidu.png) no-repeat left bottom;
+
+}
+ .header li{
+ 	float: right;
+ 	line-height: 60px;
+ 	margin: 0 20px 0 20px;
+ 	height: 60px;
+ }
+.header li a{
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+}
+.side{
+	float: right;
+	width: 380px;
+	position: relative;
+	margin: 20px;
+	 -webkit-box-shadow: 1px 1px 2px #666;
+  box-shadow: 1px 1px 2px #666;
+	
+}
+.bg2 tr td:first-child{
+	text-align: right;
+
+}
+td{
+	line-height: 40px;
+}
+div{
+
+	background-color: white;
+	border: 1px solid #DDD;
+	margin: 20px;
+	
+}
+h2{
+	margin: 20px;
+	font-size: 18px;
+	font-weight: normal;
+}
+form{
+	margin: 20px;
+}
+.sb{
+	display: inline-block;
+	width: 340px;
+	background-color: blue;
+	border: 1px solid  white;
+	height: 30px;
+	border-radius: 10px ;
+	font-style: 20px;
+	color: white;
+
+}
+.tip{
+	color: #D6D2D2
+}
+.article
+{
+	margin-right:425px;
+	 -webkit-box-shadow: 1px 1px 2px #666;
+  box-shadow: 1px 1px 2px #666;
+}
+h1{
+	font-size: 25px;
+	margin:  20px;
+}
+h2{
+	font: 
+}
+h2 + p {
+	font-size: 15px;
+	margin: 10px 20px;
+	text-indent: 0;
+	color: #C6C1C1
+
+}
+p{
+	margin: 10px 20px;
+	text-indent: 2em;
+}
+p+img{
+	margin: 10px 20px;
+}
+ul{
+	list-style: none;
+	margin: 20px;
+	line-height: 25px;
+}
+.tupian{
+
+	width: 120px;
+    display: inline-block;
+	border: 1px solid black;
+	text-align: center;
+    text-indent: 0;
+}
+.tupian img{
+	display: inline-block;
+    width: 110px;
+    margin: 0 auto;
+}
+ol{
+	list-style: none;
+	margin: 10px 50px;
+}
+.bg1{
+	border-collapse: collapse;
+	width: 94%;
+	border-color: #EBE1E1;
+	margin: 20px 3%;
+}
+
+}
+.bg1 tr:first-child{
+	background-color: black;
+	color: white;
+}
+.bg1 td{
+	text-indent: 1em;
+}
+#total{
+	background-color:#EBE1E1;
+	border-color: #EBE1E1;
+}
+.footer{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: black;
+	color: white;
+	margin: 0;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+}
