@@ -1,0 +1,34 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑"
+}
+table td{ 
+	border: 1px solid #fff;
+	text-align: left;
+	border-collapse: collapse;
+}
+table tr:first-child{
+	background-color: #000;
+	color: white;
+}
+table .s1{
+	background-color: #fff;
+}
+table .s2{
+	background-color: #ccc;
+}
+table .s3{
+	color: red;
+}
+table .s4{
+	background-color: #ccc;
+	color: red;
+}
+input{
+	width: 120px;
+	transition: 2s;
+}
+input:focus{
+	width: 300px;
+}
